@@ -1,12 +1,15 @@
 package com.csc2636.quizapp
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.csc2636.quizapp.databinding.ActivityCheatBinding
 
-private const val EXTRA_ANSWER_IS_TRUE = "com.bignerdranch.android.geoquiz.answer_is_true"
+private const val EXTRA_ANSWER_IS_TRUE = "com.csc2636.quizap.answer_is_true"
 
 class CheatActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCheatBinding

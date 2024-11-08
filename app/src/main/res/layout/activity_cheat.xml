@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.bignerdranch.android.geoquiz.CheatActivity">
+    tools:context="com.csc2636.quizapp.CheatActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
